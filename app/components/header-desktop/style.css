@@ -1,0 +1,26 @@
+.underline{
+    height: 4px;
+    background-color: blueviolet;
+    opacity: 0;
+    transform: translateY(-4px);
+    position: absolute;
+    bottom: -10px
+}
+
+nav.desktop-only ul li{
+    position: relative;
+}
+
+.underline.active{
+    width: 100%;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+nav.desktop-only ul li:hover .underline{
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+
+}

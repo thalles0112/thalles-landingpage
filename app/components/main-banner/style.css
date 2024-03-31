@@ -1,0 +1,36 @@
+.banner-image-wrapper{
+    width: 500px;
+}
+
+.banner-wrapper{
+    background-image: linear-gradient(140deg, rgb(23, 0, 36) 0%, rgb(0, 0, 0) 41%);
+}
+
+@media only screen and (max-width: 768px){
+    .banner-wrapper{
+        height: 70vh;
+        width: 100%;
+        align-items: flex-end;
+    }
+
+    .banner-text-wrapper a{
+        margin: 10px auto
+    }
+
+    .banner-text-wrapper{
+        background-color: #5353536c;
+        padding: 5px 10px;
+        text-align: center;
+        width: 100% ;
+        }
+}
+
+
+@media only screen and (min-width: 768px){
+    .banner-wrapper{
+        height: 70vh;
+        width: 100%;
+    }
+
+
+}
