@@ -1,0 +1,17 @@
+.sidebar{
+    height: 100%;
+    position: fixed;
+    width: 400px;
+    top: 0;
+    background-color: black;
+    z-index: 90000;
+}
+
+
+.sidebar.open{
+    left: 0;
+}
+
+.sidebar.closed{
+    left: -400px;
+}

@@ -1,6 +1,6 @@
 .underline{
     height: 4px;
-    background-color: blueviolet;
+    background-color: var(--button-hover-bg);
     opacity: 0;
     transform: translateY(-4px);
     position: absolute;
@@ -23,4 +23,9 @@ nav.desktop-only ul li:hover .underline{
     transition: 0.5s;
     transform: translateY(0px);
 
+}
+
+nav{
+
+    opacity: 1;
 }

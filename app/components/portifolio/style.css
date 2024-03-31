@@ -23,3 +23,25 @@
         margin: 2px
     }
 }
+
+.project-description{
+    position: absolute;
+    
+    bottom: -10px;
+    height: 0px;
+    transform: translateY();
+    background-color: #000000a4;
+    text-align: justify;
+    padding: 4px 8px;
+}
+
+.media-galery ul li{
+    position: relative;
+    overflow: hidden;
+}
+
+.media-galery ul li:hover .project-description{
+    height: 250px;
+    
+
+}

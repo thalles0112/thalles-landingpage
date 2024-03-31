@@ -2,10 +2,15 @@ import Image from "next/image";
 import HomeBanner from "./components/main-banner/banner";
 import MediaGalery from "./components/portifolio/mediaGalery";
 import SobreMim from "./components/sobre-mim/sobreMim";
+import Clientes from "./components/clientes/clientes";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
     <main className="page-height">
+
+    
+
      <section>
       <HomeBanner/>
      </section>
@@ -18,9 +23,11 @@ export default function Home() {
       <SobreMim/>
      </section>
 
-     <section className="mt-10" id="clientes">
-      Clientes
+     <section className="mt-10" id="stacks">
+      <Clientes/>
      </section>
+
+     <Footer/>
     </main>
   );
 }

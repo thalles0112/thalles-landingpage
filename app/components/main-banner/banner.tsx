@@ -4,9 +4,14 @@ import Link from "next/link";
 
 export default function HomeBanner(){
     return(
-        <div className="flex justify-center banner-wrapper">
+        <div className="flex justify-center banner-wrapper relative">
+            <div className="bg-wrapper">
+                <Image className="fixedbg desktop-only" src={'/assets/thallesnopc.jpeg'} width={2500} height={2200} alt=""/>
+                <Image className="fixedbg mobile-only" src={'/assets/thallesnopcmobile.jpeg'} width={2500} height={2200} alt=""/>
+            </div>
+            
            <div className="flex items-center h-full justify-between w-10/12 relative">
-            <div className="banner-text-wrapper z-10">
+            <div className="banner-text-wrapper z-1">
                 <p className="text-3xl font-light">
                     Desenvolvo sites<br/> 
                     bonitos, responsivos<br/>
@@ -15,14 +20,12 @@ export default function HomeBanner(){
                 </p>
 
 
-                <Link href={"#contato"} className="flex justify-center w-fit items-center h-12 rounded-3xl px-8 bg-purple-700 mt-5 ">
-                    Solicitar orçamento
+                <Link href={"#contato"} className="flex justify-center w-fit items-center h-12 rounded-3xl px-8 mt-5 button-bg">
+                    Contato
                 </Link>
             </div>
 
-            <div className="bottom-0 right-0 absolute banner-image-wrapper h-full">
-                <Image className="absolute bottom-0 left-0" src={'/assets/thalles.png'} width={550} height={700} alt="thalles oliveira"/>
-            </div>
+            
             
             </div>
         </div>
