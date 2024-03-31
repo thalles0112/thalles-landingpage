@@ -23,8 +23,8 @@ export default function SobreMim(){
                             para garantir que a regra do negócio seja cumprida no projeto.
                             <br/>
                             <br/>
-                            No entanto eu nunca cheguei participar de um projeto grande de programação do início ao fim, sabe? Não tive a oportunidade ainda de dizer "Ok, isso aqui está publicado e está
-                            tendo vários acessos, é sucesso!" Apenas tenho terminados alguns projetos de ecommerces feitos em plataformas low code e o de código que eu tenho em produção é para acesso de
+                            No entanto eu nunca cheguei participar de um projeto grande de programação do início ao fim, sabe? Não tive a oportunidade ainda de dizer {`"`}Ok, isso aqui está publicado e está
+                            tendo vários acessos, é sucesso!{`"`} Apenas tenho terminados alguns projetos de ecommerces feitos em plataformas low code e o de código que eu tenho em produção é para acesso de
                             pessoas específicas dentro de uma organização (acho que não é tão ruim assim né?). Enfim, esse é o motivo de eu me considerar o nível que falei anteriormente.
                         </p>
 
