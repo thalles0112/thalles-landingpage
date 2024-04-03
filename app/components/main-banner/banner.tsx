@@ -6,8 +6,8 @@ export default function HomeBanner(){
     return(
         <div className="flex justify-center banner-wrapper relative">
             <div className="bg-wrapper">
-                <Image className="fixedbg desktop-only" src={'/assets/thallesnopc.jpeg'} width={2500} height={2200} alt=""/>
-                <Image className="fixedbg mobile-only" src={'/assets/thallesnopcmobile.jpeg'} width={2500} height={2200} alt=""/>
+                <Image className="absolute right-0 bottom-0" src={'/assets/thalles.png'} width={500} height={2200} alt=""/>
+                <Image className="fixedbg" src={'/assets/wallbg.jpg'} width={2000} height={2200} alt=""/>
             </div>
             
            <div className="flex items-center h-full justify-between w-10/12 relative">

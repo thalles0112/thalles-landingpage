@@ -7,7 +7,7 @@ export default function HeaderDesktop(){
         <nav className="desktop-only nav-height w-full flex  border-slate-500 justify-center">
             <div className="h-full flex w-10/12 justify-between items-center">
                 <Link href={'/'} className="h-full flex p-0">
-                    <Image src={'/assets/logo.svg'} width={128} height={128} alt="webdesigner"/>
+                    <Image src={'/assets/logo-branca.svg'} width={128} height={128} alt="webdesigner"/>
                 </Link>
                 
                 <ul className="flex items-center justify-evenly w-6/12">

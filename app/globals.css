@@ -8,9 +8,9 @@
   --foreground: #000;
   --background-start: #d6dbdc;
   --background-end: #fff;
-  --theme-bg-start: #368cee;
+  --theme-bg-start: #fffcf7;
   --theme-bg-end: #7c00e2;
-  --button-hover-bg: #087bff;
+  --button-hover-bg: #412118;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -98,7 +98,10 @@ section h2{
 .button-bg{
   background-color: var(--theme-bg-start);
   font-weight: 700;
+  color: #000;
 }
+
+
 
 .button-bg:hover{
   background-color: var(--button-hover-bg);

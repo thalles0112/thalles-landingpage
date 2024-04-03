@@ -50,7 +50,7 @@ export default function MediaGalery(){
     return(
         <div className="w-full flex flex-col items-center  justify-center media-galery">
             <div className="w-10/12">
-                <h2>#Meus projetos</h2>
+                <h2  className='mb-5'>#Meus projetos</h2>
                 
                 <ul className="flex flex-wrap mx-auto">
                     {portifolio.map(projeto=>{

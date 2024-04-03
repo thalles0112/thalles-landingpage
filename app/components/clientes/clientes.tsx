@@ -33,6 +33,38 @@ export default function Tecnologias(){
             name: 'Loja integrada',
             img: '/stacks/li.png'    
         },
+        {
+            name: 'Shopify',
+            img: '/stacks/shopify.png'    
+        },
+        {
+            name: 'Nuvemshop',
+            img: '/stacks/nuvemshop.png'    
+        },
+        {
+            name: 'Anymarket',
+            img: '/stacks/anymarket.png'    
+        },
+        {
+            name: 'VTEX',
+            img: '/stacks/vtex.png'    
+        },
+        {
+            name: 'Merchant Center',
+            img: '/stacks/merchantcenter.png'    
+        },
+        {
+            name: 'Google meu negócio',
+            img: '/stacks/google-my-business.png'    
+        },
+        {
+            name: 'Bling',
+            img: '/stacks/bling.svg'    
+        },
+        {
+            name: 'Postman',
+            img: '/stacks/postman.png'    
+        },
     ]
     
     useEffect(()=>{
@@ -56,8 +88,8 @@ export default function Tecnologias(){
                     <div ref={slider} className="flex">
                         {tecnologias.map(tecnologia=>{
                             return(
-                                <li key={tecnologia.name} className="w-80 h-80 mx-1 flex items-center flex-col justify-center ">
-                                   <Image src={tecnologia.img} width={200} height={100} alt={tecnologia.name}/>
+                                <li key={tecnologia.name} className="w-72 h-72 flex items-center flex-col justify-center ">
+                                   <Image src={tecnologia.img} width={150} height={100} alt={tecnologia.name}/>
                                    
                                 </li>
                             )

@@ -21,7 +21,7 @@ export default function MobileHeader(){
             </button>
 
             <Link className="" href={'#inicio'}>
-                <Image src={'/assets/logo.svg'} width={80} height={106} alt="thalles oliveira"/>
+                <Image src={'/assets/logo-branca.svg'} width={80} height={106} alt="thalles oliveira"/>
             </Link>
 
            
