@@ -5,21 +5,13 @@
 
 :root {
   --nav-height: 70px;
-  --foreground: #000;
-  --background-start: #d6dbdc;
-  --background-end: #fff;
-  --theme-bg-start: #fffcf7;
+  --foreground: #fff;
+  --background-start: #000000;
+  --background-end: #181420;
   --theme-bg-end: #7c00e2;
   --button-hover-bg: #412118;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #fff;
-    --background-start: #000000;
-    --background-end: #181420;
-  }
-}
 
 *{
   scroll-behavior: smooth;
