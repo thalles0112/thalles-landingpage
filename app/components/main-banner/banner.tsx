@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomeBanner(){
     return(
-        <div className="flex justify-center banner-wrapper relative">
+        <div id="inicio" className="flex justify-center banner-wrapper relative">
             <div className="bg-wrapper">
                 <Image className="absolute right-0 bottom-0" src={'/assets/thalles.png'} width={500} height={2200} alt=""/>
                 <Image className="fixedbg" src={'/assets/wallbg.jpg'} width={2000} height={2200} alt=""/>
@@ -12,11 +12,11 @@ export default function HomeBanner(){
             
            <div className="flex items-center h-full justify-between w-10/12 relative">
             <div className="banner-text-wrapper z-1">
-                <p className="text-3xl font-light">
-                    Desenvolvo sites<br/> 
-                    bonitos, responsivos<br/>
-                    e escaláveis que <br/>
-                    <strong className="font-bold">geram resultados</strong>
+                <h1 className="text-3xl font-bold">Thalles Oliveira</h1>
+                <p className="text-xl font-light">
+                    FullStack Web Developer especializado <br/>
+                    em desenvolvimento frontend<br/>
+                    ReactJS, NextJS e JavaScript
                 </p>
 
 

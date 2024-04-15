@@ -27,7 +27,7 @@ export default function Sidebar({open, closer}:{open:boolean, closer: ()=>void})
                 
                 <ul className="flex flex-col items-start justify-evenly gap-y-5 w-10/12 mx-auto my-60 text-white">
                     <li onClick={closeMenu}>
-                        <Link  href={'#'}>
+                        <Link  href={'#inicio'}>
                             Início
                         </Link>
                         <div className="underline active"></div>

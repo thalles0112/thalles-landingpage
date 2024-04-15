@@ -40,6 +40,10 @@
     overflow: hidden;
 }
 
+.media-galery ul li:active{
+    border: 1px solid var(--theme-bg-start);
+}
+
 .media-galery ul li:hover .project-description{
     height: 250px;
     

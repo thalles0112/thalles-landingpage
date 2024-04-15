@@ -4,7 +4,7 @@ import MediaGalery from "./components/portifolio/mediaGalery";
 import SobreMim from "./components/sobre-mim/sobreMim";
 import Clientes from "./components/clientes/clientes";
 import Footer from "./components/footer/footer";
-
+import Whatsapp from './components/whatsapp/whatsapp'
 export default function Home() {
   return (
     <main className="page-height">
@@ -28,6 +28,8 @@ export default function Home() {
      </section>
 
      <Footer/>
+
+     <Whatsapp/>
     </main>
   );
 }

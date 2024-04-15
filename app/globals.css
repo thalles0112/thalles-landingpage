@@ -8,19 +8,13 @@
   --foreground: #fff;
   --background-start: #000000;
   --background-end: #181420;
-  --theme-bg-start: #fffcf7;
+  --theme-bg-start: #7952e4;
   --theme-bg-end: #7c00e2;
   --button-hover-bg: #7c00e2;
   --button-hover-fg: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #fff;
-    --background-start: #000000;
-    --background-end: #181420;
-  }
-}
+
 
 *{
   scroll-behavior: smooth;
@@ -99,7 +93,7 @@ section h2{
 .button-bg{
   background-color: var(--theme-bg-start);
   font-weight: 700;
-  color: #000;
+  
 }
 
 

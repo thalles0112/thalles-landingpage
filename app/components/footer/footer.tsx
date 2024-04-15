@@ -1,41 +1,37 @@
-import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
 
 
 export default function Footer(){
     const social = [
         {
-            name: 'Whatsapp',
-            link: 'https://wa.me/5522988545967',
-            icone: AiOutlineWhatsApp
-        },
-        {
             name: 'LinkedIn',
             link: 'https://www.linkedin.com/in/thalles-oliveira-90aab7178/',
             icone: AiOutlineLinkedin
         },
-
         {
             name: 'GitHub',
             link: 'https://github.com/thalles0112/',
             icone: AiOutlineGithub
         },
         {
-            name: 'instagram',
-            link: 'https://www.instagram.com/naosouthalles/',
-            icone: AiOutlineInstagram
+            name: 'Mail',
+            link: 'mailto:athalles80@gmail.com',
+            icone: AiOutlineMail
         },
+        {
+            name: 'Whatsapp',
+            link: 'https://wa.me/5522988545967',
+            icone: AiOutlineWhatsApp
+        }
     ]
 
     return (
-        <footer className="w-full flex justify-center items-center h-96 flex-col relative border-t mt-10">
-            <div className="w-10/12 flex justify-evenly items-center">
-                <div>
-                    <h2 className="font-bold text-2xl">Vamos bater um papo?</h2>
-                    <a href="mailto:athalles80@gmail.com" className="flex justify-center w-fit items-center h-12 rounded-3xl px-8 mt-5 button-bg">Contato</a>
-                </div>
+        <footer id="contato" className="w-full flex justify-center items-center h-80 flex-col relative border-t mt-10">
+            <div className="w-10/12 flex flex-col justify-evenly items-center">
+                <h1 className="text-2xl font-bold mb-5">Thalles Oliveira</h1>
                 
                 <div>
-                    <h2 className="font-normal text-xl">Minhas redes sociais</h2>
+                    <h2 className="font-normal mb-3 text-md">Minhas redes sociais, entre em contato!</h2>
                     <div className="flex justify-evenly">
                     {social.map(rede=>{
                         return(
@@ -49,9 +45,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div className="bg-slate-900 w-full h-10 absolute bottom-0 left-0">
-                <div className="w-fit mx-auto mt-2">Thalles Oliveira de Aguiar</div>
-            </div>
+           
         </footer>
     )
 }
