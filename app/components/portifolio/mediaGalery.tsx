@@ -6,17 +6,17 @@ export default function MediaGalery(){
     const portifolio = [
         {
             id: 1,
-            name: 'Flau',
-            image: '/portifolio/FlauLingeries.png',
-            desc: 'Ecommerce de vendas no atacado de lingerie e fantasias adultas.',
-            technology: 'Loja integrada'
+            name: 'FastCMS',
+            image: '/portifolio/fastcms.png',
+            desc: 'CMS Portátil inspirado no contentful que estou desenvolvendo para integrar com qualquer projeto seja web ou nativo.',
+            technology: 'ReactJS'
         },
         {
             id: 2,
-            name: 'Di Sessa',
-            image: '/portifolio/disessa.png',
-            desc: 'Ecommerce de venda de joias folheadas direcionada para mulheres que desejam empreender.',
-            technology: 'Tray'
+            name: 'Task Manager',
+            image: '/portifolio/taskmanager.png',
+            desc: 'Web App baseado no Trello, com conceito de cards e listas, automações, opção de convidar usuário para o quadro, etc.',
+            technology: 'ReactJS'
 
         },
         {
@@ -30,21 +30,21 @@ export default function MediaGalery(){
             id: 4,
             name: 'ISirius',
             image: '/portifolio/isirius.png',
-            desc: 'Loja online de venda de acessórios como capa, case e carregador para equipamentos apple como Iphone, Mac, etc.',
+            desc: 'Loja online de acessórios como capa, case e carregador para equipamentos apple como Iphone, Mac, etc.',
             technology: 'Tray'
         },
         {
             id: 5,
             name: 'Hentfy',
             image: '/portifolio/hentfy.png',
-            desc: 'Um projeto pessoal que comecei desenvolver com o intuito de criar uma plataforma de assistir vídeo fácil de usar, visualmente organizada.',
+            desc: 'Um projeto pessoal que comecei desenvolver com o intuito de criar uma plataforma de assistir vídeo fácil de usar e visualmente organizada.',
             technology: 'Next JS'
         },
         {
             id: 6,
             name: 'LTV Dashboard',
             image: '/portifolio/ltvdashboard.png',
-            desc: 'Uma dashboard que mede o ciclo de vida de um cliente em um ecommerce. Ela consegue identificar de quanto em quanto tempo os clientes compram no site e mmuito mais',
+            desc: 'Uma dashboard que mede o ciclo de vida de um cliente em um ecommerce. Ela consegue identificar de quanto em quanto tempo os clientes compram no site e mmuito mais.',
             technology: 'React JS'
         },
     ]

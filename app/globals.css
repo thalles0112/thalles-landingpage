@@ -19,6 +19,7 @@
 *{
   scroll-behavior: smooth;
   transition: 1s;
+  
 }
 
 *::-webkit-scrollbar{
@@ -93,7 +94,6 @@ section h2{
 .button-bg{
   background-color: var(--theme-bg-start);
   font-weight: 700;
-  
 }
 
 

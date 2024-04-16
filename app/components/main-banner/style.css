@@ -4,10 +4,9 @@
 
 .banner-wrapper{
     background-image: linear-gradient(160deg, var(--theme-bg-start) -80%, var(--background-end) 30%);
-    
-    overflow: hidden;
     position: relative;
     width: 100%;
+    
 }
 
 .bg-wrapper{
@@ -17,9 +16,12 @@
 }
 
 .fixedbg{
-    height: 100%;
-    opacity: 0.04;
+    height: 70vh;
+    
+    opacity: 0.1;
     position: absolute;
+    width: 2000px;
+    
 }
 
 @media only screen and (max-width: 768px){
@@ -50,3 +52,5 @@
 
 
 }
+
+

@@ -8,9 +8,6 @@ import Whatsapp from './components/whatsapp/whatsapp'
 export default function Home() {
   return (
     <main className="page-height">
-
-    
-
      <section>
       <HomeBanner/>
      </section>
