@@ -14,7 +14,7 @@ export default function SobreMim(){
                     </div>
 
                     <div className='text-container w-6/12'>
-                        <h3>Desenvolvedor pleno especialista em operações e-commerce</h3>
+                        <h3>Desenvolvedor web full stack</h3>
                         <p>
                         Com uma sólida experiência em desenvolvimento web frontend, trago uma 
                         paixão pela criação de interfaces intuitivas e visualmente atraentes. 
@@ -23,8 +23,8 @@ export default function SobreMim(){
 
                         <br/>
                         <p>
-                        busco constantemente integrar as últimas tendências e 
-                        melhores práticas para proporcionar uma experiência de usuário excepcional. 
+                            busco constantemente integrar as últimas tendências e 
+                            melhores práticas para proporcionar uma experiência de usuário excepcional. 
                         </p>
 
                         <br/>
@@ -32,6 +32,15 @@ export default function SobreMim(){
                             <strong> ReactJS</strong> e <strong>NextJS</strong>, além de uma compreensão profunda de design responsivo 
                             e acessibilidade. Estou comprometido em transformar conceitos em realidade 
                             digital, elevando a experiência do usuário a novos patamares.
+                        </p>
+                        <br/>
+                        <p>
+                            Com uma bagagem sólida no backend, especialmente no uso do framework <strong>Django</strong>, 
+                            minha jornada foi marcada por uma constante busca pelo aprimoramento e pela aplicação prática dos conhecimentos adquiridos. 
+                            Com cada linha de código escrita, cada problema resolvido e cada projeto concluído, 
+                            minha confiança e habilidade no uso do Django cresceram significativamente. 
+                            A familiaridade com suas funcionalidades principais, como models, views, templates e ORM, 
+                            tornou-se natural, permitindo-me focar em soluções inovadoras e eficientes para as demandas específicas de cada projeto.
                         </p>
                     </div>
                 </div>

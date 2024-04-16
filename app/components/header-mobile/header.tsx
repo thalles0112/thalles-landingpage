@@ -20,7 +20,7 @@ export default function MobileHeader(){
                 <MdMenu size={34}/>
             </button>
 
-            <Link className="" href={'#inicio'}>
+            <Link className="" href={'/'}>
                 <Image src={'/assets/logo-colorida.svg'} width={80} height={106} alt="thalles oliveira"/>
             </Link>
 

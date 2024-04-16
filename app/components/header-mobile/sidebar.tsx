@@ -54,7 +54,7 @@ export default function Sidebar({open, closer}:{open:boolean, closer: ()=>void})
                         <div className="underline"></div>
                     </li>
 
-                    <Link className="flex items-center h-12 rounded-3xl px-8 button-bg absolute bottom-10" href={'#contato'}>
+                    <Link onClick={closeMenu} className="flex items-center h-12 rounded-3xl px-8 button-bg absolute bottom-10" href={'#contato'}>
                         Contato
                     </Link>
                 </ul>
